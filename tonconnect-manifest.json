@@ -1,0 +1,18 @@
+{
+    "name": "My Telegram Bot",
+    "description": "Bot for sending Jetton",
+    "url": "https://example.com",
+    "icons": [
+      "https://example.com/icon.png"
+    ],
+    "methods": [
+      {
+        "name": "sendTransaction",
+        "params": {
+          "to": "address",
+          "amount": "uint128"
+        }
+      }
+    ]
+  }
+  
